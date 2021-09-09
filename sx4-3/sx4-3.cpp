@@ -19,7 +19,10 @@ int main(int argc, char const *argv[]) {
                 matrix[j * size + i] ^= matrix[i * size + j];
                 matrix[i * size + j] ^= matrix[j * size + i];
             }
-
+        }
+    }
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
             std::cout << std::setw(5) << matrix[i * size + j];
         }
         std::cout << std::endl;
