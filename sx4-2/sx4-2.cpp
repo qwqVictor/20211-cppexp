@@ -24,7 +24,7 @@ int* multiplication(int* a, int arow, int acol, int* b, int brow, int bcol) {
 void print(int* c, int crow, int ccol) {
     for (int i = 0; i < crow; i++) {
         for (int j = 0; j < ccol; j++) {
-            cout << setw(5) << c[crow * i + j];
+            cout << setw(5) << c[ccol * i + j];
         }
         cout << endl;
     }
