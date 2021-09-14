@@ -1,3 +1,4 @@
 *.zip
 *.png
 *.docx
+__gitignored_*
